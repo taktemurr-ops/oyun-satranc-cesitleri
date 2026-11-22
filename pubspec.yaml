@@ -16,7 +16,7 @@ dependencies:
   masa_motoru:
     git:
       url: https://github.com/taktemurr-ops/masa-motoru
-      ref: 03fe717a6ac7de313d23e19de1cb79263621b348
+      ref: 9468a00ad94c6b7031ab101ed281c855bae06aab
 
 dev_dependencies:
   flutter_test:

@@ -3,9 +3,9 @@ import 'package:oyun_satranc_cesitleri/oyun_satranc_cesitleri.dart';
 import 'package:studio_core/core/level_plan.dart';
 
 void main() {
-  test('9 çeşit, kimlikler benzersiz, 33 dil', () {
-    expect(satrancCesitConfigs.length, 9);
-    expect(satrancCesitConfigs.map((c) => c.gameId).toSet().length, 9);
+  test('10 çeşit, kimlikler benzersiz, 33 dil', () {
+    expect(satrancCesitConfigs.length, 10);
+    expect(satrancCesitConfigs.map((c) => c.gameId).toSet().length, 10);
     expect(satrancCesitGroup.title.length, 33);
     expect(satrancCesitGroup.tagline.length, 33);
     for (final c in satrancCesitConfigs) {
